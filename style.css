@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); /* h1 */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@1000&family=Nunito+Sans:opsz,wght@6..12,600&display=swap'); /* copyright */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap'); /* opcoes */
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+html {
+    background-color: black;
+}
+
+header{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: #1B1C1F;
+    border-radius: 20px;
+    display: flexbox;
+    border: 2px solid #00A5CF;
+}
+
+section{
+    margin-top: 10px;
+    display: flexbox;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+h2 {
+    color: #00A5CF;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    margin: auto;
+    color: white;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.bloco {
+    width: 80%;
+    height: auto;
+    background-color: #1B1C1F;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flexbox;
+    border-width: 2px;
+    border: 2px solid #00A5CF;
+}
+
+.copyright{
+    color: gray;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.botao {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.cachorro {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid #00A5CF;
+    }
+
+.opcoes {
+    background-color: transparent;
+    width: 20px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: auto;
+    justify-content: flex-start;
+    font-size: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.home:hover {
+    color: #00A5CF;
+}
+
+.home:active {
+    color: white;
+}
+
+.faq {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.faq:hover {
+    color: white;
+}
+
+.faq:active {
+    color: #00A5CF;
+}
+
+
+#casa {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    font-size: large;
+    display: flex;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: left;
+    position: relative;
+    top: 1px;
+}
+
+.button {
+    border-radius: 25px;
+    border-color: #00A5CF;
+    border-width: 2px;
+    font-family: 'Poppins', sans-serif;
+    color: #00A5CF;
+    background-color: #1B1C1F;
+}
+
+.button:hover {
+    background-color: #00A5CF;
+    border-color: #00A5CF;
+    color: white;
+    font-style: normal;
+}
+
+.button:active {
+    border-color: #00A5CF;
+    color: #00A5CF;
+    background-color: #1B1C1F;
+}
+
+.botao2 {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.lorem {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

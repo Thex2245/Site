@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); /* h1 */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@1000&family=Nunito+Sans:opsz,wght@6..12,600&display=swap'); /* copyright */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap'); /* opcoes */
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');/* opcoes */
 
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
@@ -107,9 +107,9 @@ nav {
     margin-left: 5px;
     margin-right: auto;
     justify-content: flex-start;
-    font-size: 25px;
+    font-size: 15px;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .home {
@@ -131,7 +131,7 @@ nav {
 }
 
 .faq:hover {
-    color: white;
+    color: #00A5CF;
 }
 
 .faq:active {

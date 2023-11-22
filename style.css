@@ -138,6 +138,23 @@ nav {
     color: #00A5CF;
 }
 
+.linkedin {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.linkedin:hover {
+    color: #00A5CF;
+}
+
+.linkedin:active {
+    color: #00A5CF;
+}
+
+.linkedin {
+    display: flex;
+    white-space: nowrap;
+}
 
 #casa {
     background-color: transparent;
